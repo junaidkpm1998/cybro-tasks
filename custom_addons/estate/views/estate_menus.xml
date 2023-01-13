@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="test_menu_root" name="Package SO"/>
+    <menuitem id="test_first_level_menu" name="Configuration" parent="test_menu_root"/>
+    <menuitem id="menu_customer_details_report" name="Package SO invntry"
+              parent="stock.menu_stock_config_settings"
+              action="action_customer_details_report"
+              sequence="7"/>
+    <menuitem id="test_model_menu_action" action="test_model_action" name="Configuration" parent="test_menu_root"/>
+<!--    <menuitem id="model_menu_action" action="test_model_action1" name="sdsa" parent="test_menu_root"/>-->
+</odoo>

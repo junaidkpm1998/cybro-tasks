@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="action_customer_details_report" model="ir.actions.act_window">
+
+        <field name="name">Inventory</field>
+        <field name="res_model">test.model</field>
+        <field name="view_mode">tree,form</field>
+        </record>
+
+
+    </data>
+</odoo>
+
+
